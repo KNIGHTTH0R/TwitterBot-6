@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-import tweepy
+# import tweepy
 from selenium import webdriver
 import time
 
@@ -51,10 +51,11 @@ class scrap:
 
 
     def tweeting(self):
-        auth = tweepy.OAuthHandler('GVBkhXef34jiNz1oeycazCx8I','3iIBGIBH8UkbRUFWfIesPajIl4lISwx0lfFAWrVqXntnIPdmcK')
-        auth.set_access_token('1237336099854245888-RRROxzaiyzWk6T0mcwdxjWVjOBCVO5', 't9SMF1voUWsaebmgw0uTTulCviXy2XvRQw0R5HX3IDupQ')
-        api = tweepy.API(auth)
-        api.update_status("This is my first tweet!")
+#         auth = tweepy.OAuthHandler('GVBkhXef34jiNz1oeycazCx8I','3iIBGIBH8UkbRUFWfIesPajIl4lISwx0lfFAWrVqXntnIPdmcK')
+#         auth.set_access_token('1237336099854245888-RRROxzaiyzWk6T0mcwdxjWVjOBCVO5', 't9SMF1voUWsaebmgw0uTTulCviXy2XvRQw0R5HX3IDupQ')
+#         api = tweepy.API(auth)
+#        api.update_status("This is my first tweet!")
+         pass
 scrap("reuters")
 
 
